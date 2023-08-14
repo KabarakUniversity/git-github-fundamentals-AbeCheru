@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="contact-tab">
+        <div class="twitter-bar">
+            <img src="images\twitter.png" alt="Twitter logo" id="twitter-icon"> <a>Twitter: @lego</a>
+        </div>
+        <div class="email-contact">
+            <img src="images\email.jpeg" alt="Email icon" id="email-icon"><a>Email: lelgo@yahoo.com</a>
+
+        </div>
+    <div class="address">
+        <img src="images\address.jpeg" alt="Address icon" id="Address-icon"> <a>Address: Kabarak, Nakuru, Kenya</a>
+
+    </div>
+        <div class="phone-contact">
+            <img src="images\phone.png" alt="Phone icon" id="phone-icon"><a>Phone: 0798983619</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("twitter-icon").addEventListener("click", function() {
+            alert("Twitter: @lego");
+        });
+
+        document.getElementById("email-icon").addEventListener("click", function() {
+            alert("Email: lelgo@yahoo.com");
+        });
+
+        document.getElementById("address-icon").addEventListener("click", function () {
+            alert("Address: Kabarak, Nakuru, Kenya");
+        });
+
+        document.getElementById("phone-icon").addEventListener("click", function() {
+            alert("Phone: +254798983619");
+        });
+    </script>
+</body>
+</html>

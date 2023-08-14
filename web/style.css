@@ -1,0 +1,21 @@
+.contact-tab {
+    display:table-row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .twitter-bar,
+  .email-contact,
+  .phone-contact {
+    cursor: pointer;
+  }
+  
+  #twitter-icon,
+  #email-icon,
+  #phone-icon {
+    width: 10px;
+    height: 10px;
+  }
+  
+
+  
